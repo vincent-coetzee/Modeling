@@ -7,7 +7,7 @@ let package = Package(
     name: "Modeling",
     platforms: [
            .iOS(.v16),
-           .macOS(.v10_15) // Limit the deployment of this package to iOS 16 and above, this is needed because SystemLogger makes use of the Apple SOLog framework containing the Logger implementation
+           .macOS(.v14) // Limit the deployment of this package to iOS 16 and above, this is needed because SystemLogger makes use of the Apple SOLog framework containing the Logger implementation
         ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
